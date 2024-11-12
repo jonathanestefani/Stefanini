@@ -1,4 +1,4 @@
-# consulta-cep-frontend
+# Frontend
 
 ## Project setup
 ```
@@ -10,5 +10,5 @@ npm install
 npm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Deixei o .env por ter apenas informações públicas, não possui nenhuma informação privada. 
+Normalmente se usa o .env.example e substitui pelo .env.
