@@ -29,13 +29,13 @@ enquanto o frontend utiliza **Vuex** para gerenciamento de estado na busca de CE
 - Backend (Laravel): http://localhost:8000
 
 ## Estrutura do Projeto
-
+```
 📦 Stefanini
 ├── backend/       # Projeto backend em Laravel
 ├── frontend/      # Projeto frontend em Vue.js
 ├── docker-compose.yml
 └── README.md
-
+```
 ## Tecnologias Utilizadas
 
 - Backend: Laravel
@@ -49,10 +49,12 @@ enquanto o frontend utiliza **Vuex** para gerenciamento de estado na busca de CE
 
 O backend foi desenvolvido com Laravel, utilizando o padrão Clean Code para uma estrutura modular. 
 
-- Entidades e Value Objects
-- Serviços de Domínio
+- Contrato
+- Serviço
 - DTOs
 - Adapter
+- Resource
+- Provider
 - Teste de integração
 
 ### Frontend (Vue.js)
